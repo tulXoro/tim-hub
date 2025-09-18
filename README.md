@@ -18,7 +18,6 @@ Use this however you see fit.
 
 - [Docker](https://www.docker.com/) (for Docker installation)
 - [NodeJS](https://nodejs.org) v23 (for manual)
-- [Python](https://www.python.org/downloads/) latest (for manual)
 
 ### Docker (recommended) (Not implemented yet)
 1. Clone the repository with `git clone <project url>}`.
