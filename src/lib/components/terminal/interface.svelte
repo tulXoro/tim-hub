@@ -27,7 +27,7 @@
 				break;
 
 			default:
-				const isAlphanumeric = e.code.startsWith('Key') || e.code.startsWith('Digit');
+				const isAlphanumeric = e.code.startsWith('Key') || e.code.startsWith('Digit') || e.code === 'Space';
 				if (isAlphanumeric) userTyped += key;
 
 				break;
