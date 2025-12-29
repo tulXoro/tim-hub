@@ -33,10 +33,10 @@
   <div class="flex border-b border-b-blue-950">
     {#each TABS as tab}
           <button
-        class="px-4 py-2 text-sm font-medium transition-colors duration-200 {activeTab === tab.title 
+        class="px-4 py-2 text-sm font-medium transition-colors duration-200 {activeTab === tab.type 
           ? 'bg-blue-600 text-white border-b-2 border-blue-400' 
           : 'bg-cyan-900 text-gray-300 hover:bg-indigo-800 hover:text-white'}"
-        on:click={() => switchTab(tab.title as TabName)}
+        on:click={() => switchTab(tab.type as TabName)}
       >
         {tab.title}
       </button>
